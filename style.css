@@ -1,0 +1,226 @@
+/* Default styles for larger screens */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #132043;
+    padding: 40px 60px;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.header-right {
+    align-items: flex-end;
+    display: flex-end;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.position {
+    font-size: 20px;
+}
+
+.contact-item {
+    display: flow-root;
+    text-align: right;
+    margin-bottom: 5px;
+    
+}
+
+.contact-item img {
+    width: 23px;
+    margin-left: 9px;
+    padding-top: 7px;
+    vertical-align:bottom;
+    
+}
+
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.column {
+    
+    padding: 20px;
+}
+
+.left-column {
+    background-color: #f1f1f1;
+    width:40%;
+    
+  
+  
+}
+
+.right-column {
+    background-color: #e1e1e1;
+  width:60%;
+  
+}
+
+
+
+.contact-item a {
+    text-decoration: none;
+    color: white; /* Optionally, you can set the color of the links */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.section {
+    width: 40vh;
+    height: 4px;
+    color: solid black;
+    background-color: black;
+    border: none;
+    margin: 0 0 12px 0;
+}
+.skills{
+    max-width: 50%;
+    margin:0;
+}
+
+.skill {
+    
+    width: 70px;
+    height: 27px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 4px 3px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    display: inline-block;
+}
+.heading {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+h3{
+    font-size: 17px;
+}
+
+/* Default styles for larger screens */
+/* ... (your existing CSS code) ... */
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+  header{
+    padding:20px;
+  }
+  .header-left h1{
+    font-size:23px;
+  }
+  .position{
+    font-size:17px;
+  }
+  .header-left{
+    text-align: left;
+  }
+    .header-container {
+        display:block;
+        align-items: center;
+    }
+
+    .header-right {
+        margin-top: 20px;
+      font-size:12px;
+        text-align: left;
+      display:flex;
+      align-items:flex-start;
+      
+    }
+  .contact-item{
+    text-align:left;
+    margin-bottom: 0;
+  }
+  .contact-item img {
+    width: 16px;
+    margin-left: 5px;
+}
+    .main-content {
+      display:flex;
+        flex-direction: column;
+    }
+
+    .column {
+        
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .left-column {
+        order: -1;
+        width:auto;
+      
+     
+    }
+  
+
+    .right-column {
+        order: 1;
+        width:auto;
+      
+    } 
+  
+
+    .section {
+        width: 45%;
+    }
+    .skills{
+        max-width:90%;
+    }
+
+    .skill {
+        
+        width: 52px;
+        margin: 3px;
+      font-size:9px;
+
+      
+    }
+    ul{
+        font-size:12px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+  p{
+    font-size:12px;
+  }
+  .heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+h3{
+    font-size:13px;
+    margin-bottom: 2px;
+}
+
+  
+}
